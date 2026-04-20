@@ -1,0 +1,57 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+#logo-image {
+  width: 200px;
+}
+
+#body {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(14, 14, 239);
+  color: white;
+  padding: 80px;
+  overflow: hidden;
+}
+
+.header-paragraph-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 40px;
+  padding-left: 0px;
+}
+
+.buttons {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+  background-color: white;
+  color: black;
+}
+
+#browser-btn {
+  background-color: black;
+  color: white;
+}
+
+#background-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60vw;
+  height: 50vh;
+}
+
+#background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  background-color: rgb(14, 14, 239);
+}
